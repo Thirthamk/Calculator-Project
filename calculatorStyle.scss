@@ -1,0 +1,74 @@
+@import "colors.scss";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Montserrat", sans-serif;
+}
+section {
+    background: linear-gradient(
+        to bottom,
+        $backgroundColor1,
+        $backgroundColor2
+    );
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 90%;
+    max-width: 400px;
+    background-color: $calcButtonColor;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.display {
+    background-color: $calcDisplayColor;
+    height: 100px;
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+    font-size: 30px;
+    position: relative;
+    &__display-1 {
+        opacity: 0.4;
+        font-size: 20px;
+        height: 15px;
+        // overflow: hidden;
+    }
+}
+
+.temp-result {
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    font-size: 20px;
+    opacity: 0.3;
+}
+.all_button {
+    color: $buttonFontColour;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+}
+.button {
+    border: 0.5px solid;
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: $calcColor;
+}
+.btn-0 {
+    grid-column: 1/3;
+}
