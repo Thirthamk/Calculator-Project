@@ -1,2 +1,2 @@
 # Calculator-Project
-A simple calculator using javascript
+A calculator created using HTML/SCSS and JavaScript.
