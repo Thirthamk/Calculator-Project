@@ -1,5 +1,5 @@
 # Calculator-Project
-A calculator created using JavaScript and HTML/SCSS.
+A calculator created using JavaScript, HTML and SCSS.
 
 # HTML/SCSS
 Create a calculator to be rendered to the html page
