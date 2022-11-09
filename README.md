@@ -18,4 +18,5 @@ You should be writing arrow functions
 Try and create as many pure functions as possible!
 
 # Image:
-![image](https://user-images.githubusercontent.com/79642065/197752278-3a672e00-5df2-48c6-96ac-2ddbc824aceb.png)
+![image](https://user-images.githubusercontent.com/79642065/200956001-ca27a00e-5b57-44fc-9864-48a824f05b85.png)
+
